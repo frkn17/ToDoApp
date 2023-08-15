@@ -1,0 +1,55 @@
+.card-todo{
+    margin-top: 30px;
+    width: 95%;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.task-header input[type=checkbox]{
+    width: 16px;
+    height: 16px;
+    margin-right:8px ;
+}
+
+.task-element {
+    margin-bottom: 30px;
+}
+
+.task-button{
+    width: 80px;
+    padding: 10px 0px;
+    font-size: 16px;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 5%;
+}
+.task-button:hover{
+    transform: scale(1.2);
+}
+
+.task-button.edit{
+    background-color: #FFD95A;
+}
+
+.task-button.edit:hover{
+    background-color: #F79327;
+}
+
+.task-button.remove{
+    background-color: #D2001A;
+}
+
+.task-button.remove:hover{
+    background-color: #990000;
+}
+
+.completed-task{
+    text-decoration: line-through;
+}

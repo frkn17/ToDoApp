@@ -1,0 +1,29 @@
+.card-form{
+    display: flex;
+    position: relative;
+    left: 5%;
+}
+
+.input-group{
+    height: 40px;
+    border: none;
+}
+
+.card-form .input-text{
+    width: 60%;
+    font-size: 24px;
+}
+
+.card-form .add-button{
+    width: 30%;
+    background-color: #4477CE;
+    color:#fff;
+    cursor: pointer;
+}
+
+.add-button:hover{
+    background-color: #1D5D9B;
+}
+
+
+
