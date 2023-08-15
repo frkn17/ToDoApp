@@ -1,0 +1,54 @@
+.card-control-buttons{
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.control-button{
+    width: 100px;
+    font-size: 16px;
+    padding:10px 0px;
+    cursor: pointer;
+    border:none;
+    transition: all .5s;
+}
+
+.control-button:hover{
+    transform: scale(1.2);
+}
+
+.all{
+    background-color: #512B81;
+    color:#fff;
+}
+
+.all:hover{
+    background-color: #35155D;
+}
+
+.pending{
+    background-color: #F4D160;
+}
+
+.pending:hover{
+    background-color: #F0DE36;
+}
+
+.completed{
+    background-color: #9DC08B;
+}
+
+.completed:hover{
+    background-color: #609966;
+}
+
+.clear{
+    background-color: #C70039;
+    color:#fff;
+}
+
+.clear:hover{
+    background-color: #C51605;
+}
+
